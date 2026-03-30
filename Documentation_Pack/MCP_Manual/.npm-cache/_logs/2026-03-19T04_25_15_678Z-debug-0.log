@@ -1,0 +1,310 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v23.10.0
+3 silly config load:file:C:\Users\win10\AppData\Roaming\nvm\v23.10.0\node_modules\npm\npmrc
+4 silly config load:file:D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\tavily\.npmrc
+5 silly config load:file:C:\Users\win10\.npmrc
+6 silly config load:file:C:\Program Files\nodejs\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--no-fund" "--cache" "D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\.npm-cache"
+9 verbose logfile logs-max:10 dir:D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\.npm-cache\_logs\2026-03-19T04_25_15_678Z-
+10 verbose logfile D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\.npm-cache\_logs\2026-03-19T04_25_15_678Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\tavily\\node_modules\\@modelcontextprotocol\\sdk'
+14 silly reify ]
+15 silly reify moves {
+15 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\tavily\\node_modules\\@modelcontextprotocol\\sdk': 'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\tavily\\node_modules\\@modelcontextprotocol\\.sdk-1fhNKVFp'
+15 silly reify }
+16 http cache zod-to-json-schema@https://registry.npmmirror.com/zod-to-json-schema/-/zod-to-json-schema-3.25.1.tgz 1ms (cache hit)
+17 http cache zod@https://registry.npmmirror.com/zod/-/zod-4.3.6.tgz 0ms (cache hit)
+18 http cache yargs-parser@https://registry.npmmirror.com/yargs-parser/-/yargs-parser-21.1.1.tgz 0ms (cache hit)
+19 http cache y18n@https://registry.npmmirror.com/y18n/-/y18n-5.0.8.tgz 0ms (cache hit)
+20 http cache yargs@https://registry.npmmirror.com/yargs/-/yargs-17.7.2.tgz 0ms (cache hit)
+21 http cache wrappy@https://registry.npmmirror.com/wrappy/-/wrappy-1.0.2.tgz 0ms (cache hit)
+22 http cache wrap-ansi@https://registry.npmmirror.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz 0ms (cache hit)
+23 http cache which@https://registry.npmmirror.com/which/-/which-2.0.2.tgz 0ms (cache hit)
+24 http cache unpipe@https://registry.npmmirror.com/unpipe/-/unpipe-1.0.0.tgz 0ms (cache hit)
+25 http cache typescript@https://registry.npmmirror.com/typescript/-/typescript-5.8.3.tgz 0ms (cache hit)
+26 http cache vary@https://registry.npmmirror.com/vary/-/vary-1.1.2.tgz 0ms (cache hit)
+27 http cache type-is@https://registry.npmmirror.com/type-is/-/type-is-2.0.1.tgz 0ms (cache hit)
+28 http cache undici-types@https://registry.npmmirror.com/undici-types/-/undici-types-6.19.8.tgz 0ms (cache hit)
+29 http cache toidentifier@https://registry.npmmirror.com/toidentifier/-/toidentifier-1.0.1.tgz 0ms (cache hit)
+30 http cache strip-ansi@https://registry.npmmirror.com/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+31 http cache string-width@https://registry.npmmirror.com/string-width/-/string-width-4.2.3.tgz 0ms (cache hit)
+32 http cache side-channel-weakmap@https://registry.npmmirror.com/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 0ms (cache hit)
+33 http cache statuses@https://registry.npmmirror.com/statuses/-/statuses-2.0.2.tgz 0ms (cache hit)
+34 http cache side-channel-map@https://registry.npmmirror.com/side-channel-map/-/side-channel-map-1.0.1.tgz 0ms (cache hit)
+35 http cache side-channel-list@https://registry.npmmirror.com/side-channel-list/-/side-channel-list-1.0.0.tgz 0ms (cache hit)
+36 http cache side-channel@https://registry.npmmirror.com/side-channel/-/side-channel-1.1.0.tgz 0ms (cache hit)
+37 http cache shebang-command@https://registry.npmmirror.com/shebang-command/-/shebang-command-2.0.0.tgz 0ms (cache hit)
+38 http cache shebang-regex@https://registry.npmmirror.com/shebang-regex/-/shebang-regex-3.0.0.tgz 0ms (cache hit)
+39 http cache setprototypeof@https://registry.npmmirror.com/setprototypeof/-/setprototypeof-1.2.0.tgz 0ms (cache hit)
+40 http cache send@https://registry.npmmirror.com/send/-/send-1.2.1.tgz 0ms (cache hit)
+41 http cache serve-static@https://registry.npmmirror.com/serve-static/-/serve-static-2.2.1.tgz 0ms (cache hit)
+42 http cache safer-buffer@https://registry.npmmirror.com/safer-buffer/-/safer-buffer-2.1.2.tgz 0ms (cache hit)
+43 http cache router@https://registry.npmmirror.com/router/-/router-2.2.0.tgz 0ms (cache hit)
+44 http cache require-directory@https://registry.npmmirror.com/require-directory/-/require-directory-2.1.1.tgz 0ms (cache hit)
+45 http cache require-from-string@https://registry.npmmirror.com/require-from-string/-/require-from-string-2.0.2.tgz 0ms (cache hit)
+46 http cache range-parser@https://registry.npmmirror.com/range-parser/-/range-parser-1.2.1.tgz 0ms (cache hit)
+47 http cache raw-body@https://registry.npmmirror.com/raw-body/-/raw-body-3.0.2.tgz 0ms (cache hit)
+48 http cache qs@https://registry.npmmirror.com/qs/-/qs-6.14.2.tgz 0ms (cache hit)
+49 http cache proxy-from-env@https://registry.npmmirror.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz 0ms (cache hit)
+50 http cache proxy-addr@https://registry.npmmirror.com/proxy-addr/-/proxy-addr-2.0.7.tgz 0ms (cache hit)
+51 http cache pkce-challenge@https://registry.npmmirror.com/pkce-challenge/-/pkce-challenge-5.0.1.tgz 0ms (cache hit)
+52 http cache path-to-regexp@https://registry.npmmirror.com/path-to-regexp/-/path-to-regexp-8.3.0.tgz 0ms (cache hit)
+53 http cache parseurl@https://registry.npmmirror.com/parseurl/-/parseurl-1.3.3.tgz 0ms (cache hit)
+54 http cache on-finished@https://registry.npmmirror.com/on-finished/-/on-finished-2.4.1.tgz 0ms (cache hit)
+55 http cache path-key@https://registry.npmmirror.com/path-key/-/path-key-3.1.1.tgz 1ms (cache hit)
+56 http cache once@https://registry.npmmirror.com/once/-/once-1.4.0.tgz 0ms (cache hit)
+57 http cache object-assign@https://registry.npmmirror.com/object-assign/-/object-assign-4.1.1.tgz 0ms (cache hit)
+58 http cache object-inspect@https://registry.npmmirror.com/object-inspect/-/object-inspect-1.13.4.tgz 0ms (cache hit)
+59 http cache negotiator@https://registry.npmmirror.com/negotiator/-/negotiator-1.0.0.tgz 0ms (cache hit)
+60 http cache mime-types@https://registry.npmmirror.com/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+61 http cache ms@https://registry.npmmirror.com/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+62 http cache mime-db@https://registry.npmmirror.com/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+63 http cache media-typer@https://registry.npmmirror.com/media-typer/-/media-typer-1.1.0.tgz 0ms (cache hit)
+64 http cache merge-descriptors@https://registry.npmmirror.com/merge-descriptors/-/merge-descriptors-2.0.0.tgz 0ms (cache hit)
+65 http cache json-schema-typed@https://registry.npmmirror.com/json-schema-typed/-/json-schema-typed-8.0.2.tgz 0ms (cache hit)
+66 http cache math-intrinsics@https://registry.npmmirror.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+67 http cache jose@https://registry.npmmirror.com/jose/-/jose-6.1.3.tgz 0ms (cache hit)
+68 http cache json-schema-traverse@https://registry.npmmirror.com/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz 0ms (cache hit)
+69 http cache isexe@https://registry.npmmirror.com/isexe/-/isexe-2.0.0.tgz 0ms (cache hit)
+70 http cache is-promise@https://registry.npmmirror.com/is-promise/-/is-promise-4.0.0.tgz 0ms (cache hit)
+71 http cache is-fullwidth-code-point@https://registry.npmmirror.com/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 0ms (cache hit)
+72 http cache ipaddr.js@https://registry.npmmirror.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz 0ms (cache hit)
+73 http cache ip-address@https://registry.npmmirror.com/ip-address/-/ip-address-10.1.0.tgz 0ms (cache hit)
+74 http cache inherits@https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+75 http cache hono@https://registry.npmmirror.com/hono/-/hono-4.12.7.tgz 0ms (cache hit)
+76 http cache http-errors@https://registry.npmmirror.com/http-errors/-/http-errors-2.0.1.tgz 0ms (cache hit)
+77 http cache hasown@https://registry.npmmirror.com/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+78 http cache iconv-lite@https://registry.npmmirror.com/iconv-lite/-/iconv-lite-0.7.2.tgz 0ms (cache hit)
+79 http cache has-tostringtag@https://registry.npmmirror.com/has-tostringtag/-/has-tostringtag-1.0.2.tgz 0ms (cache hit)
+80 http cache gopd@https://registry.npmmirror.com/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+81 http cache has-symbols@https://registry.npmmirror.com/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+82 http cache get-proto@https://registry.npmmirror.com/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+83 http cache get-intrinsic@https://registry.npmmirror.com/get-intrinsic/-/get-intrinsic-1.3.0.tgz 0ms (cache hit)
+84 http cache get-caller-file@https://registry.npmmirror.com/get-caller-file/-/get-caller-file-2.0.5.tgz 0ms (cache hit)
+85 http cache function-bind@https://registry.npmmirror.com/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+86 http cache fresh@https://registry.npmmirror.com/fresh/-/fresh-2.0.0.tgz 0ms (cache hit)
+87 http cache forwarded@https://registry.npmmirror.com/forwarded/-/forwarded-0.2.0.tgz 0ms (cache hit)
+88 http cache form-data@https://registry.npmmirror.com/form-data/-/form-data-4.0.5.tgz 0ms (cache hit)
+89 http cache finalhandler@https://registry.npmmirror.com/finalhandler/-/finalhandler-2.1.1.tgz 0ms (cache hit)
+90 http cache follow-redirects@https://registry.npmmirror.com/follow-redirects/-/follow-redirects-1.15.11.tgz 0ms (cache hit)
+91 http cache fast-uri@https://registry.npmmirror.com/fast-uri/-/fast-uri-3.1.0.tgz 0ms (cache hit)
+92 http cache fast-deep-equal@https://registry.npmmirror.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 0ms (cache hit)
+93 http cache express-rate-limit@https://registry.npmmirror.com/express-rate-limit/-/express-rate-limit-8.3.0.tgz 0ms (cache hit)
+94 http cache express@https://registry.npmmirror.com/express/-/express-5.2.1.tgz 0ms (cache hit)
+95 http cache eventsource-parser@https://registry.npmmirror.com/eventsource-parser/-/eventsource-parser-3.0.6.tgz 0ms (cache hit)
+96 http cache eventsource@https://registry.npmmirror.com/eventsource/-/eventsource-3.0.7.tgz 0ms (cache hit)
+97 http cache etag@https://registry.npmmirror.com/etag/-/etag-1.8.1.tgz 1ms (cache hit)
+98 http cache escape-html@https://registry.npmmirror.com/escape-html/-/escape-html-1.0.3.tgz 0ms (cache hit)
+99 http cache escalade@https://registry.npmmirror.com/escalade/-/escalade-3.2.0.tgz 0ms (cache hit)
+100 http cache es-set-tostringtag@https://registry.npmmirror.com/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 0ms (cache hit)
+101 http cache es-object-atoms@https://registry.npmmirror.com/es-object-atoms/-/es-object-atoms-1.1.1.tgz 0ms (cache hit)
+102 http cache es-errors@https://registry.npmmirror.com/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+103 http cache es-define-property@https://registry.npmmirror.com/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+104 http cache encodeurl@https://registry.npmmirror.com/encodeurl/-/encodeurl-2.0.0.tgz 0ms (cache hit)
+105 http cache emoji-regex@https://registry.npmmirror.com/emoji-regex/-/emoji-regex-8.0.0.tgz 0ms (cache hit)
+106 http cache ee-first@https://registry.npmmirror.com/ee-first/-/ee-first-1.1.1.tgz 0ms (cache hit)
+107 http cache dotenv@https://registry.npmmirror.com/dotenv/-/dotenv-16.5.0.tgz 0ms (cache hit)
+108 http cache dunder-proto@https://registry.npmmirror.com/dunder-proto/-/dunder-proto-1.0.1.tgz 0ms (cache hit)
+109 http cache depd@https://registry.npmmirror.com/depd/-/depd-2.0.0.tgz 0ms (cache hit)
+110 http cache debug@https://registry.npmmirror.com/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+111 http cache delayed-stream@https://registry.npmmirror.com/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+112 http cache cross-spawn@https://registry.npmmirror.com/cross-spawn/-/cross-spawn-7.0.6.tgz 0ms (cache hit)
+113 http cache cors@https://registry.npmmirror.com/cors/-/cors-2.8.5.tgz 0ms (cache hit)
+114 http cache cookie@https://registry.npmmirror.com/cookie/-/cookie-0.7.2.tgz 0ms (cache hit)
+115 http cache content-type@https://registry.npmmirror.com/content-type/-/content-type-1.0.5.tgz 0ms (cache hit)
+116 http cache content-disposition@https://registry.npmmirror.com/content-disposition/-/content-disposition-1.0.1.tgz 0ms (cache hit)
+117 http cache cookie-signature@https://registry.npmmirror.com/cookie-signature/-/cookie-signature-1.2.2.tgz 0ms (cache hit)
+118 http cache combined-stream@https://registry.npmmirror.com/combined-stream/-/combined-stream-1.0.8.tgz 0ms (cache hit)
+119 http cache color-name@https://registry.npmmirror.com/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+120 http cache cliui@https://registry.npmmirror.com/cliui/-/cliui-8.0.1.tgz 0ms (cache hit)
+121 http cache color-convert@https://registry.npmmirror.com/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+122 http cache call-bound@https://registry.npmmirror.com/call-bound/-/call-bound-1.0.4.tgz 0ms (cache hit)
+123 http cache bytes@https://registry.npmmirror.com/bytes/-/bytes-3.1.2.tgz 0ms (cache hit)
+124 http cache call-bind-apply-helpers@https://registry.npmmirror.com/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 0ms (cache hit)
+125 http cache body-parser@https://registry.npmmirror.com/body-parser/-/body-parser-2.2.2.tgz 0ms (cache hit)
+126 http cache axios@https://registry.npmmirror.com/axios/-/axios-1.13.5.tgz 0ms (cache hit)
+127 http cache asynckit@https://registry.npmmirror.com/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+128 http cache ansi-styles@https://registry.npmmirror.com/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+129 http cache ansi-regex@https://registry.npmmirror.com/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+130 http cache ajv-formats@https://registry.npmmirror.com/ajv-formats/-/ajv-formats-3.0.1.tgz 0ms (cache hit)
+131 http cache ajv@https://registry.npmmirror.com/ajv/-/ajv-8.18.0.tgz 0ms (cache hit)
+132 http cache accepts@https://registry.npmmirror.com/accepts/-/accepts-2.0.0.tgz 0ms (cache hit)
+133 http cache @hono/node-server@https://registry.npmmirror.com/@hono/node-server/-/node-server-1.19.10.tgz 0ms (cache hit)
+134 http cache @types/yargs-parser@https://registry.npmmirror.com/@types/yargs-parser/-/yargs-parser-21.0.3.tgz 0ms (cache hit)
+135 http cache @types/yargs@https://registry.npmmirror.com/@types/yargs/-/yargs-17.0.33.tgz 0ms (cache hit)
+136 http cache @types/node@https://registry.npmmirror.com/@types/node/-/node-20.17.46.tgz 0ms (cache hit)
+137 http cache @modelcontextprotocol/sdk@https://registry.npmmirror.com/@modelcontextprotocol/sdk/-/sdk-1.26.0.tgz 0ms (cache hit)
+138 http cache mime-types@https://registry.npmmirror.com/mime-types/-/mime-types-3.0.2.tgz 0ms (cache hit)
+139 http cache mime-db@https://registry.npmmirror.com/mime-db/-/mime-db-1.54.0.tgz 0ms (cache hit)
+140 http cache mime-types@https://registry.npmmirror.com/mime-types/-/mime-types-3.0.2.tgz 0ms (cache hit)
+141 http cache mime-db@https://registry.npmmirror.com/mime-db/-/mime-db-1.54.0.tgz 0ms (cache hit)
+142 http cache mime-types@https://registry.npmmirror.com/mime-types/-/mime-types-3.0.2.tgz 0ms (cache hit)
+143 http cache mime-db@https://registry.npmmirror.com/mime-db/-/mime-db-1.54.0.tgz 0ms (cache hit)
+144 http cache mime-types@https://registry.npmmirror.com/mime-types/-/mime-types-3.0.2.tgz 0ms (cache hit)
+145 http cache mime-db@https://registry.npmmirror.com/mime-db/-/mime-db-1.54.0.tgz 0ms (cache hit)
+146 silly tarball no local data for zod@https://registry.npmmirror.com/zod/-/zod-4.3.6.tgz. Extracting by manifest.
+147 silly tarball no local data for qs@https://registry.npmmirror.com/qs/-/qs-6.14.2.tgz. Extracting by manifest.
+148 silly tarball no local data for json-schema-typed@https://registry.npmmirror.com/json-schema-typed/-/json-schema-typed-8.0.2.tgz. Extracting by manifest.
+149 silly tarball no local data for hono@https://registry.npmmirror.com/hono/-/hono-4.12.7.tgz. Extracting by manifest.
+150 silly tarball no local data for form-data@https://registry.npmmirror.com/form-data/-/form-data-4.0.5.tgz. Extracting by manifest.
+151 silly tarball no local data for follow-redirects@https://registry.npmmirror.com/follow-redirects/-/follow-redirects-1.15.11.tgz. Extracting by manifest.
+152 silly tarball no local data for express-rate-limit@https://registry.npmmirror.com/express-rate-limit/-/express-rate-limit-8.3.0.tgz. Extracting by manifest.
+153 silly tarball no local data for axios@https://registry.npmmirror.com/axios/-/axios-1.13.5.tgz. Extracting by manifest.
+154 silly tarball no local data for ajv@https://registry.npmmirror.com/ajv/-/ajv-8.18.0.tgz. Extracting by manifest.
+155 silly tarball no local data for @hono/node-server@https://registry.npmmirror.com/@hono/node-server/-/node-server-1.19.10.tgz. Extracting by manifest.
+156 silly tarball no local data for @types/node@https://registry.npmmirror.com/@types/node/-/node-20.17.46.tgz. Extracting by manifest.
+157 silly tarball no local data for @modelcontextprotocol/sdk@https://registry.npmmirror.com/@modelcontextprotocol/sdk/-/sdk-1.26.0.tgz. Extracting by manifest.
+158 http fetch GET 200 https://cdn.npmmirror.com/packages/follow-redirects/1.15.11/follow-redirects-1.15.11.tgz 809ms (cache miss)
+159 http fetch GET 200 https://cdn.npmmirror.com/packages/form-data/4.0.5/form-data-4.0.5.tgz 834ms (cache miss)
+160 http fetch GET 200 https://cdn.npmmirror.com/packages/express-rate-limit/8.3.0/express-rate-limit-8.3.0.tgz 989ms (cache miss)
+161 http fetch GET 200 https://cdn.npmmirror.com/packages/json-schema-typed/8.0.2/json-schema-typed-8.0.2.tgz 1061ms (cache miss)
+162 http fetch GET 200 https://cdn.npmmirror.com/packages/qs/6.14.2/qs-6.14.2.tgz 1211ms (cache miss)
+163 http fetch GET 200 https://cdn.npmmirror.com/packages/%40hono/node-server/1.19.10/node-server-1.19.10.tgz 1288ms (cache miss)
+164 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/node/20.17.46/node-20.17.46.tgz 1431ms (cache miss)
+165 http fetch GET 200 https://cdn.npmmirror.com/packages/axios/1.13.5/axios-1.13.5.tgz 1486ms (cache miss)
+166 http fetch GET 200 https://cdn.npmmirror.com/packages/ajv/8.18.0/ajv-8.18.0.tgz 1962ms (cache miss)
+167 http fetch GET 200 https://cdn.npmmirror.com/packages/hono/4.12.7/hono-4.12.7.tgz 2231ms (cache miss)
+168 http fetch GET 200 https://cdn.npmmirror.com/packages/%40modelcontextprotocol/sdk/1.26.0/sdk-1.26.0.tgz 2278ms (cache miss)
+169 http fetch GET 200 https://cdn.npmmirror.com/packages/zod/4.3.6/zod-4.3.6.tgz 2312ms (cache miss)
+170 silly ADD node_modules/zod-to-json-schema
+171 silly ADD node_modules/zod
+172 silly ADD node_modules/yargs-parser
+173 silly ADD node_modules/yargs
+174 silly ADD node_modules/y18n
+175 silly ADD node_modules/wrappy
+176 silly ADD node_modules/wrap-ansi
+177 silly ADD node_modules/which
+178 silly ADD node_modules/vary
+179 silly ADD node_modules/unpipe
+180 silly ADD node_modules/undici-types
+181 silly ADD node_modules/typescript
+182 silly ADD node_modules/type-is
+183 silly ADD node_modules/type-is/node_modules/mime-types
+184 silly ADD node_modules/type-is/node_modules/mime-db
+185 silly ADD node_modules/toidentifier
+186 silly ADD node_modules/strip-ansi
+187 silly ADD node_modules/string-width
+188 silly ADD node_modules/statuses
+189 silly ADD node_modules/side-channel-weakmap
+190 silly ADD node_modules/side-channel-map
+191 silly ADD node_modules/side-channel-list
+192 silly ADD node_modules/side-channel
+193 silly ADD node_modules/shebang-regex
+194 silly ADD node_modules/shebang-command
+195 silly ADD node_modules/setprototypeof
+196 silly ADD node_modules/serve-static
+197 silly ADD node_modules/send
+198 silly ADD node_modules/send/node_modules/mime-types
+199 silly ADD node_modules/send/node_modules/mime-db
+200 silly ADD node_modules/safer-buffer
+201 silly ADD node_modules/router
+202 silly ADD node_modules/require-from-string
+203 silly ADD node_modules/require-directory
+204 silly ADD node_modules/raw-body
+205 silly ADD node_modules/range-parser
+206 silly ADD node_modules/qs
+207 silly ADD node_modules/proxy-from-env
+208 silly ADD node_modules/proxy-addr
+209 silly ADD node_modules/pkce-challenge
+210 silly ADD node_modules/path-to-regexp
+211 silly ADD node_modules/path-key
+212 silly ADD node_modules/parseurl
+213 silly ADD node_modules/once
+214 silly ADD node_modules/on-finished
+215 silly ADD node_modules/object-inspect
+216 silly ADD node_modules/object-assign
+217 silly ADD node_modules/negotiator
+218 silly ADD node_modules/ms
+219 silly ADD node_modules/mime-types
+220 silly ADD node_modules/mime-db
+221 silly ADD node_modules/merge-descriptors
+222 silly ADD node_modules/media-typer
+223 silly ADD node_modules/math-intrinsics
+224 silly ADD node_modules/json-schema-typed
+225 silly ADD node_modules/json-schema-traverse
+226 silly ADD node_modules/jose
+227 silly ADD node_modules/isexe
+228 silly ADD node_modules/is-promise
+229 silly ADD node_modules/is-fullwidth-code-point
+230 silly ADD node_modules/ipaddr.js
+231 silly ADD node_modules/ip-address
+232 silly ADD node_modules/inherits
+233 silly ADD node_modules/iconv-lite
+234 silly ADD node_modules/http-errors
+235 silly ADD node_modules/hono
+236 silly ADD node_modules/hasown
+237 silly ADD node_modules/has-tostringtag
+238 silly ADD node_modules/has-symbols
+239 silly ADD node_modules/gopd
+240 silly ADD node_modules/get-proto
+241 silly ADD node_modules/get-intrinsic
+242 silly ADD node_modules/get-caller-file
+243 silly ADD node_modules/function-bind
+244 silly ADD node_modules/fresh
+245 silly ADD node_modules/forwarded
+246 silly ADD node_modules/form-data
+247 silly ADD node_modules/follow-redirects
+248 silly ADD node_modules/finalhandler
+249 silly ADD node_modules/fast-uri
+250 silly ADD node_modules/fast-deep-equal
+251 silly ADD node_modules/express-rate-limit
+252 silly ADD node_modules/express
+253 silly ADD node_modules/express/node_modules/mime-types
+254 silly ADD node_modules/express/node_modules/mime-db
+255 silly ADD node_modules/eventsource-parser
+256 silly ADD node_modules/eventsource
+257 silly ADD node_modules/etag
+258 silly ADD node_modules/escape-html
+259 silly ADD node_modules/escalade
+260 silly ADD node_modules/es-set-tostringtag
+261 silly ADD node_modules/es-object-atoms
+262 silly ADD node_modules/es-errors
+263 silly ADD node_modules/es-define-property
+264 silly ADD node_modules/encodeurl
+265 silly ADD node_modules/emoji-regex
+266 silly ADD node_modules/ee-first
+267 silly ADD node_modules/dunder-proto
+268 silly ADD node_modules/dotenv
+269 silly ADD node_modules/depd
+270 silly ADD node_modules/delayed-stream
+271 silly ADD node_modules/debug
+272 silly ADD node_modules/cross-spawn
+273 silly ADD node_modules/cors
+274 silly ADD node_modules/cookie-signature
+275 silly ADD node_modules/cookie
+276 silly ADD node_modules/content-type
+277 silly ADD node_modules/content-disposition
+278 silly ADD node_modules/combined-stream
+279 silly ADD node_modules/color-name
+280 silly ADD node_modules/color-convert
+281 silly ADD node_modules/cliui
+282 silly ADD node_modules/call-bound
+283 silly ADD node_modules/call-bind-apply-helpers
+284 silly ADD node_modules/bytes
+285 silly ADD node_modules/body-parser
+286 silly ADD node_modules/axios
+287 silly ADD node_modules/asynckit
+288 silly ADD node_modules/ansi-styles
+289 silly ADD node_modules/ansi-regex
+290 silly ADD node_modules/ajv-formats
+291 silly ADD node_modules/ajv
+292 silly ADD node_modules/accepts
+293 silly ADD node_modules/accepts/node_modules/mime-types
+294 silly ADD node_modules/accepts/node_modules/mime-db
+295 silly ADD node_modules/@types/yargs-parser
+296 silly ADD node_modules/@types/yargs
+297 silly ADD node_modules/@types/node
+298 silly ADD node_modules/@hono/node-server
+299 silly CHANGE node_modules/@modelcontextprotocol/sdk
+300 verbose cwd D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\tavily
+301 verbose os Windows_NT 10.0.26100
+302 verbose node v23.10.0
+303 verbose npm  v10.9.2
+304 verbose exit 0
+305 info ok

@@ -1,0 +1,376 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v23.10.0
+3 silly config load:file:C:\Users\win10\AppData\Roaming\nvm\v23.10.0\node_modules\npm\npmrc
+4 silly config load:file:D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\.npmrc
+5 silly config load:file:C:\Users\win10\.npmrc
+6 silly config load:file:C:\Program Files\nodejs\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--no-fund" "--cache" "D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\.npm-cache"
+9 verbose logfile logs-max:10 dir:D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\.npm-cache\_logs\2026-03-19T05_34_27_674Z-
+10 verbose logfile D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\.npm-cache\_logs\2026-03-19T05_34_27_674Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\npm'
+14 silly reify ]
+15 silly reify moves {
+15 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\npm': 'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\.npm-fXsVo0vG'
+15 silly reify }
+16 http cache npm@https://registry.npmmirror.com/npm/-/npm-11.3.0.tgz 1ms (cache hit)
+17 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\fsevents
+18 silly reify mark deleted [
+18 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\fsevents'
+18 silly reify ]
+19 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\win32-ia32
+20 silly reify mark deleted [
+20 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\win32-ia32'
+20 silly reify ]
+21 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\win32-arm64
+22 silly reify mark deleted [
+22 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\win32-arm64'
+22 silly reify ]
+23 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\sunos-x64
+24 silly reify mark deleted [
+24 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\sunos-x64'
+24 silly reify ]
+25 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\openbsd-x64
+26 silly reify mark deleted [
+26 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\openbsd-x64'
+26 silly reify ]
+27 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\openbsd-arm64
+28 silly reify mark deleted [
+28 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\openbsd-arm64'
+28 silly reify ]
+29 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\netbsd-x64
+30 silly reify mark deleted [
+30 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\netbsd-x64'
+30 silly reify ]
+31 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\netbsd-arm64
+32 silly reify mark deleted [
+32 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\netbsd-arm64'
+32 silly reify ]
+33 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\linux-x64
+34 silly reify mark deleted [
+34 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\linux-x64'
+34 silly reify ]
+35 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\linux-s390x
+36 silly reify mark deleted [
+36 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\linux-s390x'
+36 silly reify ]
+37 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\linux-riscv64
+38 silly reify mark deleted [
+38 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\linux-riscv64'
+38 silly reify ]
+39 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\linux-ppc64
+40 silly reify mark deleted [
+40 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\linux-ppc64'
+40 silly reify ]
+41 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\linux-mips64el
+42 silly reify mark deleted [
+42 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\linux-mips64el'
+42 silly reify ]
+43 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\linux-loong64
+44 silly reify mark deleted [
+44 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\linux-loong64'
+44 silly reify ]
+45 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\linux-ia32
+46 silly reify mark deleted [
+46 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\linux-ia32'
+46 silly reify ]
+47 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\linux-arm64
+48 silly reify mark deleted [
+48 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\linux-arm64'
+48 silly reify ]
+49 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\linux-arm
+50 silly reify mark deleted [
+50 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\linux-arm'
+50 silly reify ]
+51 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\freebsd-x64
+52 silly reify mark deleted [
+52 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\freebsd-x64'
+52 silly reify ]
+53 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\freebsd-arm64
+54 silly reify mark deleted [
+54 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\freebsd-arm64'
+54 silly reify ]
+55 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\darwin-x64
+56 silly reify mark deleted [
+56 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\darwin-x64'
+56 silly reify ]
+57 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\darwin-arm64
+58 silly reify mark deleted [
+58 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\darwin-arm64'
+58 silly reify ]
+59 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\android-x64
+60 silly reify mark deleted [
+60 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\android-x64'
+60 silly reify ]
+61 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\android-arm64
+62 silly reify mark deleted [
+62 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\android-arm64'
+62 silly reify ]
+63 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\android-arm
+64 silly reify mark deleted [
+64 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\android-arm'
+64 silly reify ]
+65 verbose reify failed optional dependency D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation\node_modules\@esbuild\aix-ppc64
+66 silly reify mark deleted [
+66 silly reify   'D:\\Whitelist\\Template\\Building\\Suroc-AITeam\\Documentation_Pack\\MCP_Manual\\sources\\image_generation\\node_modules\\@esbuild\\aix-ppc64'
+66 silly reify ]
+67 http cache zod-to-json-schema@https://registry.npmmirror.com/zod-to-json-schema/-/zod-to-json-schema-3.24.5.tgz 1ms (cache hit)
+68 http cache zod@https://registry.npmmirror.com/zod/-/zod-3.24.3.tgz 0ms (cache hit)
+69 http cache wrappy@https://registry.npmmirror.com/wrappy/-/wrappy-1.0.2.tgz 0ms (cache hit)
+70 http cache which@https://registry.npmmirror.com/which/-/which-2.0.2.tgz 0ms (cache hit)
+71 http cache web-streams-polyfill@https://registry.npmmirror.com/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz 0ms (cache hit)
+72 http cache uuid@https://registry.npmmirror.com/uuid/-/uuid-11.1.0.tgz 0ms (cache hit)
+73 http cache vary@https://registry.npmmirror.com/vary/-/vary-1.1.2.tgz 0ms (cache hit)
+74 http cache unpipe@https://registry.npmmirror.com/unpipe/-/unpipe-1.0.0.tgz 1ms (cache hit)
+75 http cache type-is@https://registry.npmmirror.com/type-is/-/type-is-2.0.1.tgz 0ms (cache hit)
+76 http cache undici-types@https://registry.npmmirror.com/undici-types/-/undici-types-6.19.8.tgz 0ms (cache hit)
+77 http cache tsx@https://registry.npmmirror.com/tsx/-/tsx-4.19.4.tgz 0ms (cache hit)
+78 http cache toidentifier@https://registry.npmmirror.com/toidentifier/-/toidentifier-1.0.1.tgz 0ms (cache hit)
+79 http cache typescript@https://registry.npmmirror.com/typescript/-/typescript-5.8.3.tgz 0ms (cache hit)
+80 http cache statuses@https://registry.npmmirror.com/statuses/-/statuses-2.0.1.tgz 0ms (cache hit)
+81 http cache side-channel-weakmap@https://registry.npmmirror.com/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 0ms (cache hit)
+82 http cache side-channel-map@https://registry.npmmirror.com/side-channel-map/-/side-channel-map-1.0.1.tgz 0ms (cache hit)
+83 http cache side-channel-list@https://registry.npmmirror.com/side-channel-list/-/side-channel-list-1.0.0.tgz 0ms (cache hit)
+84 http cache shebang-regex@https://registry.npmmirror.com/shebang-regex/-/shebang-regex-3.0.0.tgz 0ms (cache hit)
+85 http cache side-channel@https://registry.npmmirror.com/side-channel/-/side-channel-1.1.0.tgz 0ms (cache hit)
+86 http cache shebang-command@https://registry.npmmirror.com/shebang-command/-/shebang-command-2.0.0.tgz 0ms (cache hit)
+87 http cache setprototypeof@https://registry.npmmirror.com/setprototypeof/-/setprototypeof-1.2.0.tgz 0ms (cache hit)
+88 http cache send@https://registry.npmmirror.com/send/-/send-1.2.0.tgz 0ms (cache hit)
+89 http cache serve-static@https://registry.npmmirror.com/serve-static/-/serve-static-2.2.0.tgz 0ms (cache hit)
+90 http cache safer-buffer@https://registry.npmmirror.com/safer-buffer/-/safer-buffer-2.1.2.tgz 0ms (cache hit)
+91 http cache safe-buffer@https://registry.npmmirror.com/safe-buffer/-/safe-buffer-5.2.1.tgz 0ms (cache hit)
+92 http cache router@https://registry.npmmirror.com/router/-/router-2.2.0.tgz 0ms (cache hit)
+93 http cache raw-body@https://registry.npmmirror.com/raw-body/-/raw-body-3.0.0.tgz 0ms (cache hit)
+94 http cache qs@https://registry.npmmirror.com/qs/-/qs-6.14.0.tgz 0ms (cache hit)
+95 http cache range-parser@https://registry.npmmirror.com/range-parser/-/range-parser-1.2.1.tgz 0ms (cache hit)
+96 http cache proxy-addr@https://registry.npmmirror.com/proxy-addr/-/proxy-addr-2.0.7.tgz 0ms (cache hit)
+97 http cache path-to-regexp@https://registry.npmmirror.com/path-to-regexp/-/path-to-regexp-8.2.0.tgz 0ms (cache hit)
+98 http cache pkce-challenge@https://registry.npmmirror.com/pkce-challenge/-/pkce-challenge-5.0.0.tgz 0ms (cache hit)
+99 http cache resolve-pkg-maps@https://registry.npmmirror.com/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz 0ms (cache hit)
+100 http cache path-key@https://registry.npmmirror.com/path-key/-/path-key-3.1.1.tgz 0ms (cache hit)
+101 http cache parseurl@https://registry.npmmirror.com/parseurl/-/parseurl-1.3.3.tgz 0ms (cache hit)
+102 http cache once@https://registry.npmmirror.com/once/-/once-1.4.0.tgz 0ms (cache hit)
+103 http cache object-inspect@https://registry.npmmirror.com/object-inspect/-/object-inspect-1.13.4.tgz 0ms (cache hit)
+104 http cache object-assign@https://registry.npmmirror.com/object-assign/-/object-assign-4.1.1.tgz 0ms (cache hit)
+105 http cache node-fetch@https://registry.npmmirror.com/node-fetch/-/node-fetch-3.3.2.tgz 0ms (cache hit)
+106 http cache negotiator@https://registry.npmmirror.com/negotiator/-/negotiator-1.0.0.tgz 0ms (cache hit)
+107 http cache mime-types@https://registry.npmmirror.com/mime-types/-/mime-types-3.0.1.tgz 0ms (cache hit)
+108 http cache ms@https://registry.npmmirror.com/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+109 http cache node-domexception@https://registry.npmmirror.com/node-domexception/-/node-domexception-1.0.0.tgz 0ms (cache hit)
+110 http cache on-finished@https://registry.npmmirror.com/on-finished/-/on-finished-2.4.1.tgz 0ms (cache hit)
+111 http cache mime-db@https://registry.npmmirror.com/mime-db/-/mime-db-1.54.0.tgz 0ms (cache hit)
+112 http cache merge-descriptors@https://registry.npmmirror.com/merge-descriptors/-/merge-descriptors-2.0.0.tgz 0ms (cache hit)
+113 http cache media-typer@https://registry.npmmirror.com/media-typer/-/media-typer-1.1.0.tgz 0ms (cache hit)
+114 http cache isexe@https://registry.npmmirror.com/isexe/-/isexe-2.0.0.tgz 0ms (cache hit)
+115 http cache math-intrinsics@https://registry.npmmirror.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+116 http cache ipaddr.js@https://registry.npmmirror.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz 0ms (cache hit)
+117 http cache is-promise@https://registry.npmmirror.com/is-promise/-/is-promise-4.0.0.tgz 0ms (cache hit)
+118 http cache inherits@https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+119 http cache install@https://registry.npmmirror.com/install/-/install-0.13.0.tgz 0ms (cache hit)
+120 http cache iconv-lite@https://registry.npmmirror.com/iconv-lite/-/iconv-lite-0.6.3.tgz 0ms (cache hit)
+121 http cache hasown@https://registry.npmmirror.com/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+122 http cache http-errors@https://registry.npmmirror.com/http-errors/-/http-errors-2.0.0.tgz 0ms (cache hit)
+123 http cache has-symbols@https://registry.npmmirror.com/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+124 http cache gopd@https://registry.npmmirror.com/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+125 http cache get-tsconfig@https://registry.npmmirror.com/get-tsconfig/-/get-tsconfig-4.10.0.tgz 0ms (cache hit)
+126 http cache get-proto@https://registry.npmmirror.com/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+127 http cache get-intrinsic@https://registry.npmmirror.com/get-intrinsic/-/get-intrinsic-1.3.0.tgz 0ms (cache hit)
+128 http cache has-tostringtag@https://registry.npmmirror.com/has-tostringtag/-/has-tostringtag-1.0.2.tgz 0ms (cache hit)
+129 http cache function-bind@https://registry.npmmirror.com/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+130 http cache forwarded@https://registry.npmmirror.com/forwarded/-/forwarded-0.2.0.tgz 0ms (cache hit)
+131 http cache fresh@https://registry.npmmirror.com/fresh/-/fresh-2.0.0.tgz 0ms (cache hit)
+132 http cache formdata-polyfill@https://registry.npmmirror.com/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz 0ms (cache hit)
+133 http cache formdata-node@https://registry.npmmirror.com/formdata-node/-/formdata-node-6.0.3.tgz 0ms (cache hit)
+134 http cache form-data@https://registry.npmmirror.com/form-data/-/form-data-4.0.2.tgz 0ms (cache hit)
+135 http cache fetch-blob@https://registry.npmmirror.com/fetch-blob/-/fetch-blob-3.2.0.tgz 0ms (cache hit)
+136 http cache finalhandler@https://registry.npmmirror.com/finalhandler/-/finalhandler-2.1.0.tgz 0ms (cache hit)
+137 http cache express@https://registry.npmmirror.com/express/-/express-5.1.0.tgz 0ms (cache hit)
+138 http cache eventsource-parser@https://registry.npmmirror.com/eventsource-parser/-/eventsource-parser-3.0.1.tgz 0ms (cache hit)
+139 http cache express-rate-limit@https://registry.npmmirror.com/express-rate-limit/-/express-rate-limit-7.5.0.tgz 0ms (cache hit)
+140 http cache etag@https://registry.npmmirror.com/etag/-/etag-1.8.1.tgz 0ms (cache hit)
+141 http cache escape-html@https://registry.npmmirror.com/escape-html/-/escape-html-1.0.3.tgz 0ms (cache hit)
+142 http cache es-set-tostringtag@https://registry.npmmirror.com/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 0ms (cache hit)
+143 http cache eventsource@https://registry.npmmirror.com/eventsource/-/eventsource-3.0.6.tgz 0ms (cache hit)
+144 http cache es-object-atoms@https://registry.npmmirror.com/es-object-atoms/-/es-object-atoms-1.1.1.tgz 0ms (cache hit)
+145 http cache esbuild@https://registry.npmmirror.com/esbuild/-/esbuild-0.25.3.tgz 0ms (cache hit)
+146 http cache es-errors@https://registry.npmmirror.com/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+147 http cache es-define-property@https://registry.npmmirror.com/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+148 http cache ee-first@https://registry.npmmirror.com/ee-first/-/ee-first-1.1.1.tgz 0ms (cache hit)
+149 http cache encodeurl@https://registry.npmmirror.com/encodeurl/-/encodeurl-2.0.0.tgz 0ms (cache hit)
+150 http cache dotenv@https://registry.npmmirror.com/dotenv/-/dotenv-16.5.0.tgz 0ms (cache hit)
+151 http cache delayed-stream@https://registry.npmmirror.com/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+152 http cache dunder-proto@https://registry.npmmirror.com/dunder-proto/-/dunder-proto-1.0.1.tgz 0ms (cache hit)
+153 http cache depd@https://registry.npmmirror.com/depd/-/depd-2.0.0.tgz 0ms (cache hit)
+154 http cache debug@https://registry.npmmirror.com/debug/-/debug-4.4.0.tgz 0ms (cache hit)
+155 http cache data-uri-to-buffer@https://registry.npmmirror.com/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz 0ms (cache hit)
+156 http cache cors@https://registry.npmmirror.com/cors/-/cors-2.8.5.tgz 0ms (cache hit)
+157 http cache cross-spawn@https://registry.npmmirror.com/cross-spawn/-/cross-spawn-7.0.6.tgz 0ms (cache hit)
+158 http cache cookie@https://registry.npmmirror.com/cookie/-/cookie-0.7.2.tgz 0ms (cache hit)
+159 http cache cookie-signature@https://registry.npmmirror.com/cookie-signature/-/cookie-signature-1.2.2.tgz 0ms (cache hit)
+160 http cache content-type@https://registry.npmmirror.com/content-type/-/content-type-1.0.5.tgz 0ms (cache hit)
+161 http cache content-disposition@https://registry.npmmirror.com/content-disposition/-/content-disposition-1.0.0.tgz 0ms (cache hit)
+162 http cache call-bound@https://registry.npmmirror.com/call-bound/-/call-bound-1.0.4.tgz 0ms (cache hit)
+163 http cache combined-stream@https://registry.npmmirror.com/combined-stream/-/combined-stream-1.0.8.tgz 0ms (cache hit)
+164 http cache body-parser@https://registry.npmmirror.com/body-parser/-/body-parser-2.2.0.tgz 0ms (cache hit)
+165 http cache bytes@https://registry.npmmirror.com/bytes/-/bytes-3.1.2.tgz 0ms (cache hit)
+166 http cache @types/uuid@https://registry.npmmirror.com/@types/uuid/-/uuid-10.0.0.tgz 0ms (cache hit)
+167 http cache @modelcontextprotocol/sdk@https://registry.npmmirror.com/@modelcontextprotocol/sdk/-/sdk-1.10.2.tgz 0ms (cache hit)
+168 http cache @esbuild/win32-x64@https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.25.3.tgz 0ms (cache hit)
+169 http cache @types/form-data@https://registry.npmmirror.com/@types/form-data/-/form-data-2.2.1.tgz 0ms (cache hit)
+170 http cache mime-types@https://registry.npmmirror.com/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+171 http cache @types/node@https://registry.npmmirror.com/@types/node/-/node-20.17.32.tgz 0ms (cache hit)
+172 http cache asynckit@https://registry.npmmirror.com/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+173 http cache accepts@https://registry.npmmirror.com/accepts/-/accepts-2.0.0.tgz 0ms (cache hit)
+174 http cache mime-db@https://registry.npmmirror.com/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+175 http cache call-bind-apply-helpers@https://registry.npmmirror.com/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 0ms (cache hit)
+176 warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+177 info run esbuild@0.25.3 postinstall node_modules/esbuild node install.js
+178 info run esbuild@0.25.3 postinstall { code: 0, signal: null }
+179 silly ADD node_modules/zod-to-json-schema
+180 silly ADD node_modules/zod
+181 silly ADD node_modules/wrappy
+182 silly ADD node_modules/which
+183 silly ADD node_modules/web-streams-polyfill
+184 silly ADD node_modules/vary
+185 silly ADD node_modules/uuid
+186 silly ADD node_modules/unpipe
+187 silly ADD node_modules/undici-types
+188 silly ADD node_modules/typescript
+189 silly ADD node_modules/type-is
+190 silly ADD node_modules/tsx
+191 silly ADD node_modules/toidentifier
+192 silly ADD node_modules/statuses
+193 silly ADD node_modules/side-channel-weakmap
+194 silly ADD node_modules/side-channel-map
+195 silly ADD node_modules/side-channel-list
+196 silly ADD node_modules/side-channel
+197 silly ADD node_modules/shebang-regex
+198 silly ADD node_modules/shebang-command
+199 silly ADD node_modules/setprototypeof
+200 silly ADD node_modules/serve-static
+201 silly ADD node_modules/send
+202 silly ADD node_modules/safer-buffer
+203 silly ADD node_modules/safe-buffer
+204 silly ADD node_modules/router
+205 silly ADD node_modules/resolve-pkg-maps
+206 silly ADD node_modules/raw-body
+207 silly ADD node_modules/range-parser
+208 silly ADD node_modules/qs
+209 silly ADD node_modules/proxy-addr
+210 silly ADD node_modules/pkce-challenge
+211 silly ADD node_modules/path-to-regexp
+212 silly ADD node_modules/path-key
+213 silly ADD node_modules/parseurl
+214 silly ADD node_modules/once
+215 silly ADD node_modules/on-finished
+216 silly ADD node_modules/object-inspect
+217 silly ADD node_modules/object-assign
+218 silly ADD node_modules/node-fetch
+219 silly ADD node_modules/node-domexception
+220 silly ADD node_modules/negotiator
+221 silly ADD node_modules/ms
+222 silly ADD node_modules/mime-types
+223 silly ADD node_modules/mime-db
+224 silly ADD node_modules/merge-descriptors
+225 silly ADD node_modules/media-typer
+226 silly ADD node_modules/math-intrinsics
+227 silly ADD node_modules/isexe
+228 silly ADD node_modules/is-promise
+229 silly ADD node_modules/ipaddr.js
+230 silly ADD node_modules/install
+231 silly ADD node_modules/inherits
+232 silly ADD node_modules/iconv-lite
+233 silly ADD node_modules/http-errors
+234 silly ADD node_modules/hasown
+235 silly ADD node_modules/has-tostringtag
+236 silly ADD node_modules/has-symbols
+237 silly ADD node_modules/gopd
+238 silly ADD node_modules/get-tsconfig
+239 silly ADD node_modules/get-proto
+240 silly ADD node_modules/get-intrinsic
+241 silly ADD node_modules/function-bind
+242 silly ADD
+243 silly ADD node_modules/fresh
+244 silly ADD node_modules/forwarded
+245 silly ADD node_modules/formdata-polyfill
+246 silly ADD node_modules/formdata-node
+247 silly ADD node_modules/form-data
+248 silly ADD node_modules/form-data/node_modules/mime-types
+249 silly ADD node_modules/form-data/node_modules/mime-db
+250 silly ADD node_modules/finalhandler
+251 silly ADD node_modules/fetch-blob
+252 silly ADD node_modules/express-rate-limit
+253 silly ADD node_modules/express
+254 silly ADD node_modules/eventsource-parser
+255 silly ADD node_modules/eventsource
+256 silly ADD node_modules/etag
+257 silly ADD node_modules/escape-html
+258 silly ADD node_modules/esbuild
+259 silly ADD node_modules/es-set-tostringtag
+260 silly ADD node_modules/es-object-atoms
+261 silly ADD node_modules/es-errors
+262 silly ADD node_modules/es-define-property
+263 silly ADD node_modules/encodeurl
+264 silly ADD node_modules/ee-first
+265 silly ADD node_modules/dunder-proto
+266 silly ADD node_modules/dotenv
+267 silly ADD node_modules/depd
+268 silly ADD node_modules/delayed-stream
+269 silly ADD node_modules/debug
+270 silly ADD node_modules/data-uri-to-buffer
+271 silly ADD node_modules/cross-spawn
+272 silly ADD node_modules/cors
+273 silly ADD node_modules/cookie-signature
+274 silly ADD node_modules/cookie
+275 silly ADD node_modules/content-type
+276 silly ADD node_modules/content-disposition
+277 silly ADD node_modules/combined-stream
+278 silly ADD node_modules/call-bound
+279 silly ADD node_modules/call-bind-apply-helpers
+280 silly ADD node_modules/bytes
+281 silly ADD node_modules/body-parser
+282 silly ADD node_modules/asynckit
+283 silly ADD node_modules/accepts
+284 silly ADD node_modules/@types/uuid
+285 silly ADD node_modules/@types/node
+286 silly ADD node_modules/@types/form-data
+287 silly ADD node_modules/@modelcontextprotocol/sdk
+288 silly ADD node_modules/@esbuild/win32-x64
+289 silly ADD
+290 silly ADD
+291 silly ADD
+292 silly ADD
+293 silly ADD
+294 silly ADD
+295 silly ADD
+296 silly ADD
+297 silly ADD
+298 silly ADD
+299 silly ADD
+300 silly ADD
+301 silly ADD
+302 silly ADD
+303 silly ADD
+304 silly ADD
+305 silly ADD
+306 silly ADD
+307 silly ADD
+308 silly ADD
+309 silly ADD
+310 silly ADD
+311 silly ADD
+312 silly ADD
+313 silly CHANGE node_modules/npm
+314 silly CHANGE node_modules/npm/node_modules/spdx-expression-parse
+315 silly CHANGE node_modules/npm/node_modules/spdx-correct
+316 verbose cwd D:\Whitelist\Template\Building\Suroc-AITeam\Documentation_Pack\MCP_Manual\sources\image_generation
+317 verbose os Windows_NT 10.0.26100
+318 verbose node v23.10.0
+319 verbose npm  v10.9.2
+320 verbose exit 0
+321 info ok

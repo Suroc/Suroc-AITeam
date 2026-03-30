@@ -1,0 +1,116 @@
+{
+  "generatedAt": "2026-03-19T03:21:21.623559+00:00",
+  "mcpServers": {
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/",
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+      },
+      "notes": "Official GitHub MCP service."
+    },
+    "slack": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@zencoderai/slack-mcp-server"
+      ],
+      "env": {
+        "SLACK_BOT_TOKEN": "${SLACK_BOT_TOKEN}",
+        "SLACK_APP_TOKEN": "${SLACK_APP_TOKEN}"
+      },
+      "notes": "Maintained by Zencoder."
+    },
+    "google_workspace": {
+      "command": "google-mcp-server",
+      "args": [
+        "stdio"
+      ],
+      "env": {
+        "GOOGLE_OAUTH_CLIENT_ID": "${GOOGLE_OAUTH_CLIENT_ID}",
+        "GOOGLE_OAUTH_CLIENT_SECRET": "${GOOGLE_OAUTH_CLIENT_SECRET}"
+      },
+      "notes": "Calendar/Drive/Gmail/Docs/Sheets support."
+    },
+    "tavily": {
+      "url": "https://mcp.tavily.com/mcp/?tavilyApiKey=${TAVILY_API_KEY}",
+      "env": {
+        "TAVILY_API_KEY": "${TAVILY_API_KEY}"
+      },
+      "notes": "Search-focused MCP server."
+    },
+    "exa": {
+      "url": "https://mcp.exa.ai/mcp?exaApiKey=${EXA_API_KEY}",
+      "env": {
+        "EXA_API_KEY": "${EXA_API_KEY}"
+      },
+      "notes": "Semantic retrieval MCP server."
+    },
+    "rss": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp_rss"
+      ],
+      "notes": "RSS feed parser MCP server."
+    },
+    "legal_database": {
+      "notes": "Legal database adapter for CourtListener/eCFR.",
+      "env": {
+        "COURT_LISTENER_API_TOKEN": "${COURT_LISTENER_API_TOKEN}"
+      }
+    },
+    "financial_news": {
+      "command": "uvx",
+      "args": [
+        "marketdata-mcp-server"
+      ],
+      "env": {
+        "ALPHA_VANTAGE_API_KEY": "${ALPHA_VANTAGE_API_KEY}"
+      },
+      "notes": "Financial data and news sentiment MCP server."
+    },
+    "figma": {
+      "url": "https://mcp.figma.com/mcp",
+      "env": {
+        "FIGMA_API_KEY": "${FIGMA_API_KEY}"
+      },
+      "notes": "Official Figma MCP endpoint."
+    },
+    "image_generation": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "imagegen-mcp"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+      },
+      "notes": "Supports DALL-E 3 and GPT-image models."
+    },
+    "filesystem": {
+      "notes": "Filesystem tool server for local project operations."
+    },
+    "docker_controller": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-docker"
+      ],
+      "notes": "Docker control plane MCP server."
+    },
+    "puppeteer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@ratiofu/mcp-puppeteer"
+      ],
+      "notes": "Browser automation MCP server."
+    },
+    "pytest_executor": {
+      "command": "uvx",
+      "args": [
+        "mcp-pytest-runner"
+      ],
+      "notes": "Pytest execution MCP server."
+    }
+  }
+}

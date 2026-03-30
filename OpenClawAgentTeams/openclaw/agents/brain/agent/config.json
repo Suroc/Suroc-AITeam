@@ -1,0 +1,32 @@
+{
+  // Brain Agent — 主控大脑的独立配置
+  model: "anthropic/claude-opus-4-6",
+
+  // 沙箱配置：主脑不需要执行代码，关闭沙箱
+  sandbox: {
+    mode: "off"
+  },
+
+  // 工具权限：主脑只做调度，不执行技术操作
+  tools: {
+    allow: [
+      "agent-send",        // Agent间通信（核心能力）
+      "web-browse",        // 网页浏览
+      "memory-read",       // 读取记忆
+      "memory-write",      // 写入记忆
+      "file-read",         // 读取文件
+      "file-write"         // 写入文件（任务文档）
+    ],
+    deny: [
+      "code-execute",      // 禁止执行代码
+      "shell",             // 禁止Shell操作
+      "docker"             // 禁止Docker操作
+    ]
+  },
+
+  // 记忆配置
+  memory: {
+    engine: "builtin",
+    persistent: true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:zhuanlan.zhihu.com)",
+      "WebSearch",
+      "Bash(curl -s -L -H \"User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" -H 'Accept: text/html,application/xhtml+xml' -H \"Accept-Language: zh-CN,zh;q=0.9,en;q=0.8\" https://zhuanlan.zhihu.com/p/1971872808159141982)",
+      "Bash(curl -s -L -H \"User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" -H 'Accept: text/html,application/xhtml+xml' -H \"Accept-Language: zh-CN,zh;q=0.9,en;q=0.8\" https://zhuanlan.zhihu.com/p/2008325722230523743)",
+      "Bash(curl -s \"https://api.github.com/search/repositories?q=OpenClaw+in:name,description&sort=updated&order=desc\")",
+      "Bash(curl -s \"https://api.github.com/orgs/openclaw/repos?sort=updated&per_page=10\")",
+      "Bash(python3 -c \":*)",
+      "Bash(curl -s \"https://api.github.com/search/repositories?q=openclaw+agent&sort=stars&order=desc&per_page=5\")",
+      "Bash(curl -s https://raw.githubusercontent.com/openclaw/skills/main/README.md)",
+      "WebFetch(domain:clawhub.ai)",
+      "WebFetch(domain:openclaw.ai)",
+      "WebFetch(domain:docs.openclaw.ai)",
+      "Bash(curl -s https://registry.npmjs.org/openclaw)"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  // Designer Agent — UI/UX设计师的独立配置
+  model: "anthropic/claude-sonnet-4-6",
+
+  sandbox: {
+    mode: "off"
+  },
+
+  tools: {
+    allow: [
+      "agent-send",
+      "web-browse",
+      "web-search",
+      "memory-read",
+      "memory-write",
+      "file-read",
+      "file-write"
+    ],
+    deny: [
+      "code-execute",
+      "shell",
+      "docker"
+    ]
+  },
+
+  memory: {
+    engine: "builtin",
+    persistent: true
+  }
+}

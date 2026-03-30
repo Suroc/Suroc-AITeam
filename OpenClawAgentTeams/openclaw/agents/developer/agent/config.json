@@ -1,0 +1,35 @@
+{
+  // Developer Agent — 全栈工程师的独立配置
+  model: "anthropic/claude-sonnet-4-6",
+
+  // 沙箱：启用，每Agent独立容器
+  sandbox: {
+    mode: "all",
+    scope: "agent",
+    docker: {
+      setupCommand: "apt-get update && apt-get install -y git nodejs npm curl wget"
+    }
+  },
+
+  tools: {
+    allow: [
+      "agent-send",
+      "web-browse",
+      "web-search",
+      "memory-read",
+      "memory-write",
+      "file-read",
+      "file-write",
+      "code-execute",       // 允许执行代码
+      "shell"               // 允许Shell操作
+    ],
+    deny: [
+      "docker"              // Docker由devops管理
+    ]
+  },
+
+  memory: {
+    engine: "builtin",
+    persistent: true
+  }
+}

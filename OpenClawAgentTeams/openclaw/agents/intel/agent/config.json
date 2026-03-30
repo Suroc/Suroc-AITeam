@@ -1,0 +1,30 @@
+{
+  // Intel Agent — 情报分析师的独立配置
+  model: "google/gemini-2.5-pro",
+
+  sandbox: {
+    mode: "off"
+  },
+
+  tools: {
+    allow: [
+      "agent-send",
+      "web-browse",         // 核心：网页浏览
+      "web-search",         // 核心：网络搜索
+      "memory-read",
+      "memory-write",
+      "file-read",
+      "file-write"
+    ],
+    deny: [
+      "code-execute",
+      "shell",
+      "docker"
+    ]
+  },
+
+  memory: {
+    engine: "builtin",
+    persistent: true
+  }
+}

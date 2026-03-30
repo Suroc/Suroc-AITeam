@@ -1,0 +1,16 @@
+# Ignore submodule directories
+Documentation_Pack/MCP_Manual/sources/docker_controller/
+Documentation_Pack/MCP_Manual/sources/exa/
+Documentation_Pack/MCP_Manual/sources/filesystem/
+Documentation_Pack/MCP_Manual/sources/financial_news/
+Documentation_Pack/MCP_Manual/sources/github/
+Documentation_Pack/MCP_Manual/sources/google_workspace/
+Documentation_Pack/MCP_Manual/sources/image_generation/
+Documentation_Pack/MCP_Manual/sources/legal_database/
+Documentation_Pack/MCP_Manual/sources/puppeteer/
+Documentation_Pack/MCP_Manual/sources/rss/
+Documentation_Pack/MCP_Manual/sources/slack/
+Documentation_Pack/MCP_Manual/sources/tavily/
+
+# Ignore sensitive directories
+.antigravity_tools/

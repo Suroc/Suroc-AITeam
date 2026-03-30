@@ -1,0 +1,123 @@
+{
+  // ============================================================
+  // OpenClaw 智能体AI团队 — 全局配置
+  // 团队名称：一人公司 AI Agent Team
+  // 架构：1个主脑 + 5个专职Agent
+  // ============================================================
+
+  // Agent 团队定义
+  agents: {
+    list: [
+      // 主脑：总指挥，接收用户需求，调配所有Agent
+      {
+        id: "brain",
+        model: "anthropic/claude-opus-4-6",
+        default: true,
+        description: "主控大脑 — 接收需求、拆解任务、调配团队、监控进度"
+      },
+      // 产品设计/调研/分析/优化
+      {
+        id: "product",
+        model: "anthropic/claude-sonnet-4-6",
+        description: "产品经理 — 需求分析、产品设计、竞品调研、用户体验优化"
+      },
+      // UI/UX 设计师
+      {
+        id: "designer",
+        model: "anthropic/claude-sonnet-4-6",
+        description: "UI/UX设计师 — 界面设计、交互设计、设计规范、原型输出"
+      },
+      // 全栈开发工程师
+      {
+        id: "developer",
+        model: "anthropic/claude-sonnet-4-6",
+        description: "全栈工程师 — 前后端开发、数据库设计、API开发、代码审查"
+      },
+      // 测试/部署/运维工程师
+      {
+        id: "devops",
+        model: "anthropic/claude-sonnet-4-6",
+        description: "DevOps工程师 — 测试、CI/CD、部署、监控、运维"
+      },
+      // 情报收集/分析
+      {
+        id: "intel",
+        model: "google/gemini-2.5-pro",
+        description: "情报分析师 — 信息收集、数据分析、趋势追踪、报告生成"
+      }
+    ]
+  },
+
+  // 路由绑定 — 将不同渠道/场景的消息路由到对应Agent
+  bindings: [
+    // 主脑：Telegram 深度工作渠道（最高优先级入口）
+    { agentId: "brain",     match: { channel: "telegram" } },
+    // 开发：Discord 技术频道
+    { agentId: "developer", match: { channel: "discord" } },
+    // 运维：Slack 运维频道
+    { agentId: "devops",    match: { channel: "slack" } },
+    // 产品：WhatsApp 产品账户
+    { agentId: "product",   match: { channel: "whatsapp", accountId: "product" } },
+    // 设计：WhatsApp 设计账户
+    { agentId: "designer",  match: { channel: "whatsapp", accountId: "design" } },
+    // 情报：WhatsApp 情报账户
+    { agentId: "intel",     match: { channel: "whatsapp", accountId: "intel" } }
+  ],
+
+  // Agent间通信 — 启用所有Agent之间的消息传递
+  tools: {
+    agentToAgent: {
+      enabled: true,
+      // 所有Agent都可以互相通信
+      allow: ["brain", "product", "designer", "developer", "devops", "intel"]
+    }
+  },
+
+  // 自动化引擎
+  automation: {
+    // 定时任务
+    cron: [
+      {
+        // 每天早上9点，情报Agent自动收集行业动态
+        schedule: "0 9 * * *",
+        agentId: "intel",
+        prompt: "执行每日情报收集：扫描行业新闻、技术趋势、竞品动态，生成简报发送给brain。"
+      },
+      {
+        // 每天晚上8点，主脑生成团队日报
+        schedule: "0 20 * * *",
+        agentId: "brain",
+        prompt: "汇总所有Agent今日工作进展，生成团队日报。"
+      },
+      {
+        // 每周一早上10点，产品Agent生成周报
+        schedule: "0 10 * * 1",
+        agentId: "product",
+        prompt: "生成产品周报：本周需求完成情况、下周优先级排序、待解决的阻塞问题。"
+      }
+    ],
+    // 心跳检查
+    heartbeat: {
+      enabled: true,
+      interval: "30m",
+      agentId: "devops",
+      prompt: "检查所有服务状态，如有异常立即通知brain和developer。"
+    }
+  },
+
+  // 记忆系统配置
+  memory: {
+    engine: "builtin",
+    // 跨会话持久记忆
+    persistent: true
+  },
+
+  // 安全配置
+  security: {
+    // 沙箱默认配置
+    sandbox: {
+      mode: "all",
+      scope: "agent"
+    }
+  }
+}
